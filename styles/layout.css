@@ -1,0 +1,56 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#container {
+	width: 760px;
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+}
+
+#masthead {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	border: 0;	
+}
+
+#navigation {
+	overflow: hidden;
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#content {
+	margin: 0 auto;
+	padding: 0px;
+	border: 0;
+	width: 530px;
+	float: left;
+}
+#column_l {
+	position: relative;
+	float: left;
+	margin: 0;
+	width: 430px;
+}
+#column_r {
+	position: relative;
+	float: right;
+	margin: 0;
+	width: 100px;
+}
+
+#footer {
+	width: 100%;
+	overflow: auto;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
