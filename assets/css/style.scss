@@ -5,16 +5,15 @@
 
 #navigation {
 	overflow: hidden;
-	float: left;
 	margin: 0;
 	padding: 0;
-    border: 0;
-    width: 15%;
-}
+	border: 0;
+	text-align: center;
+ }
 
 /* Navigation */
 #navigation ul {
-	list-style:none;
+	list-style-type: none;;
 	margin: 0;
 	padding-left: 0px;
 	padding-right: 10px;
@@ -22,7 +21,7 @@
 
 #navigation ul li {
     border: 1px solid #cdc;
-	display: block;
+	display: inline-block;
 	padding: 2px;
 	text-decoration: none;
 }
@@ -55,8 +54,8 @@
 
 #main_content {
     float: right;
-    width: 80%;
     padding-right: 20px;
+    padding-left: 20px;
 }
 
 body {
