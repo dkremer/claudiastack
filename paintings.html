@@ -1,0 +1,22 @@
+---
+layout: page
+title: Paintings
+---
+
+<h2>Paintings</h2>
+
+{% assign sorted_pages = site.pages | where_exp: 'page', 'page.painted' | sort: 'painted' | reverse | group_by: 'painted' %}
+<div class=painting-list>
+    {% for group in sorted_pages %}
+        <h3>{{ group.name }}</h3>
+        <ul>
+            {% for item in group.items %}
+                <li>
+                    <a href="{{item.url}}">
+                        <img src="{{ item.url | replace: ".html", "_thumbnail.jpg" }}"/ title="{{item.title}}"/>
+                    </a>
+                </li>
+            {%endfor%}
+        </ul>
+    {%endfor%}
+</div>
