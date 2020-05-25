@@ -5,10 +5,9 @@
 
 #navigation {
 	overflow: hidden;
-	margin: 0;
-	padding: 0;
+	margin-left: 20px;
+	padding-bottom: 5px;
 	border: 0;
-	text-align: center;
  }
 
 /* Navigation */
@@ -53,9 +52,14 @@
 }
 
 #main_content {
-    float: right;
     padding-right: 20px;
     padding-left: 20px;
+}
+
+header {
+	margin-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 5px;
 }
 
 body {
@@ -66,9 +70,6 @@ body {
 
 #container {
 	background-image: none;
-}
-header {
-    text-align: center;
 }
 
 .painting-list {
@@ -90,7 +91,6 @@ header {
 	padding: 2px;
 	text-decoration: none;
     display: inline-block;
-    vertical-align: center;
 }
 
 footer {
