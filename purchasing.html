@@ -10,11 +10,26 @@ menus:
 
 <h2>Purchasing</h2>
 
-<p>Please contact me via email if you are interested in purchasing an 
-original oil painting listed for sale on this site. Please identify 
-the painting you are interested in, provide your shipping address 
-and information on how to contact you with a total price that includes 
-shipping and sales tax if applicable.</p>
+<p>The following paintings are available for purchase:</p>
 
-<p>Payment will be handled through PayPal and the painting will be shipped 
-USPS Priority Mail.</p>
+{% assign for-sale-pages = site.pages | where_exp: 'page', 'page.painted' | where_exp: 'page', 'page.price contains "$"' %}
+<div class=painting-list>
+    <ul>
+        {% for page in for-sale-pages %}
+            <li>
+                <a href="{{page.url}}">
+                    <img src="{{ page.url | replace: ".html", "_thumbnail.jpg" }}"/ title="{{page.title}} - {{page.price}}"/><br/>
+                    {{page.title}} - {{page.price}}
+                </a>
+            </li>
+        {%endfor%}
+    </ul>
+</div>
+
+<p>Please contact me via email if you are interested in purchasing one of these paintings. Include 
+the title of the painting your are interested in, your shipping address and information 
+on how to contact you with a total price that includes shipping if applicable.</p>
+
+<p>If you live in the Minneapolis/St. Paul metro area, we can make arrangements to deliver the
+painting and you can pay with cash or a check. Outside the metro area, payment will be handled
+through PayPal and the painting will be shipped via USPS Priority Mail.</p>
