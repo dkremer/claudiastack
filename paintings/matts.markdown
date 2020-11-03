@@ -1,7 +1,7 @@
 ---
 layout: image-page
 title: Matt's
-previous: Matts
+previous: Riverview Concession
 next: Downtown Chevrolet
 photographed: 2014
 location: 3500 Cedar Ave. S., Minneapolis, MN 
