@@ -3,6 +3,50 @@
 
 @import "{{ site.theme }}";
 
+/* Default to light colors */
+body, h1, h2, h3, footer, #navigation .current { 
+	color: black; 
+}
+body { 
+	background: white; 
+}
+a, footer a {
+	color: #c55;
+}
+a:hover, footer a:hover {
+	color: #9c9;
+}
+
+@media (prefers-color-scheme: dark) {
+	body, h1, h2, h3, footer, #navigation .current { 
+		color: white; 
+	}
+	body {
+		background-color: black;
+	}
+	a, footer a {
+		color: yellow;
+	}
+	a:hover, footer a:hover {
+		color: #9c9;
+	}
+}
+  
+@media (prefers-color-scheme: light) {
+	body, h1, h2, h3, footer, #navigation .current { 
+		color: black; 
+	}
+	body { 
+		background: white; 
+	}
+	a, footer a {
+		color: #c55;
+	}
+	a:hover, footer a:hover {
+		color: #9c9;
+	}
+}
+
 #navigation {
 	overflow: hidden;
 	margin-left: 20px;
@@ -27,19 +71,11 @@
 
 #navigation ul a {
 	font-weight: bold;
-	color: #c55;
 }
 
 #navigation a:hover {
 	font-weight: bold;
 	text-decoration: none;
-	color: #9c9;
-	//border: 1px solid #c77;
-	//background-color: #c77;
-}
-
-#navigation .current {
-    color: black;
 }
 
 #navigation .sub-menu {
@@ -64,9 +100,7 @@ header {
 }
 
 body {
-	color: black;
 	background-image: none;
-	background-color: #FFFFFF;
 }
 
 #container {
@@ -97,6 +131,5 @@ body {
 footer {
     clear: both;
     width: 100%;
-    color: #6d6d6d;
     text-align: center;
 }
