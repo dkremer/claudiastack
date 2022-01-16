@@ -7,5 +7,5 @@ photographed: 1950
 location: St. Paul, MN 
 size: 18 x 18
 painted: 2014
-price: $500
+price: Sold
 ---
