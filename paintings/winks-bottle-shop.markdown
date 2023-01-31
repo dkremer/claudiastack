@@ -6,6 +6,6 @@ next: Riverview Concession
 photographed: Unknown
 location: 8th and Lake, Forest Lake, MN 
 size: 12 x 20
-painted: 2022
+painted: 2023
 price: Sold - Commission
 ---
