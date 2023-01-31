@@ -1,7 +1,7 @@
 ---
 layout: image-page
 title: Riverview Concession
-previous: Riverview Concession
+previous: Winks Bottle Shop
 next: Matt's
 photographed: 2020
 location: 3800 42nd Ave S, Minneapolis
