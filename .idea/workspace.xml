@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7318fabf-0be4-4415-ad7f-1e40584600d6" name="Default" comment="Fix copyright">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +41,7 @@
   </component>
   <component name="PhpServers">
     <servers>
-      <server host="localhost" id="4404a84a-9879-41c8-9803-d2ea5b98d4a0" name="Jekyl Serve" port="4000" />
+      <server host="localhost" id="4404a84a-9879-41c8-9803-d2ea5b98d4a0" name="Jekyl Serve" port="4080" />
     </servers>
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$/_site" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost:4000" />
@@ -55,42 +54,63 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="1WPC2jn3IRBagtnHPN6UW7zYaBf" />
+  <component name="ProjectStartupLocalConfiguration">
+    <configurations>
+      <configuration id="Shell Script.Jekyll serve" name="Jekyll serve" />
+    </configurations>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "PHP Web Page.Home.executor": "Run",
-    "PHP Web Page.Unnamed.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.laravel-idea.search-composer-json": "true",
-    "Shell Script.Home.executor": "Run",
-    "Shell Script.Jekyll Build.executor": "Run",
-    "Shell Script.Jekyll Serve.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/dave/Projects/claudiastack",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.startup.tasks",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;PHP Web Page.Home.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Web Page.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.laravel-idea.search-composer-json&quot;: &quot;true&quot;,
+    &quot;Shell Script.Home.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.Jekyll Build.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.Jekyll Serve.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.Jekyll serve.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dave/Projects/claudiastack&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.startup.tasks&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/styles" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Web Page.Home">
     <configuration name="Home" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="Jekyl Serve">
+      <method v="2" />
+    </configuration>
+    <configuration name="Jekyll serve" type="ShConfigurationType" activateToolWindowBeforeRun="false">
+      <option name="SCRIPT_TEXT" value="bundle exec jekyll serve --port 4080" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="false" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp">
@@ -102,6 +122,10 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="PHP Web Page.Home" />
+      <item itemvalue="Shell Script.Jekyll serve" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -188,6 +212,14 @@
       <workItem from="1722575319101" duration="27000" />
       <workItem from="1722575348695" duration="26000" />
       <workItem from="1722575447502" duration="530000" />
+      <workItem from="1722611111680" duration="462000" />
+      <workItem from="1722611578252" duration="46000" />
+      <workItem from="1722611627120" duration="1174000" />
+      <workItem from="1722613161500" duration="69000" />
+      <workItem from="1722613233769" duration="28000" />
+      <workItem from="1722613264002" duration="94000" />
+      <workItem from="1722613364857" duration="445000" />
+      <workItem from="1722613825899" duration="249000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1471793050300</created>
