@@ -7,7 +7,7 @@
     <list default="true" id="7318fabf-0be4-4415-ad7f-1e40584600d6" name="Default" comment="Fix copyright">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +23,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dkremer&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="723be847-a9fd-41e4-8f01-740492b7043c" />
+        <option name="url" value="git@github.com:dkremer/claudiastack.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.2" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="4404a84a-9879-41c8-9803-d2ea5b98d4a0" name="Jekyl Serve" port="4000" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$/_site" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost:4000" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -39,25 +59,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.laravel-idea.search-composer-json&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dave/Projects/claudiastack&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.deploy.options&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "PHP Web Page.Home.executor": "Run",
+    "PHP Web Page.Unnamed.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.laravel-idea.search-composer-json": "true",
+    "Shell Script.Home.executor": "Run",
+    "Shell Script.Jekyll Build.executor": "Run",
+    "Shell Script.Jekyll Serve.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/dave/Projects/claudiastack",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.startup.tasks",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/styles" />
@@ -65,6 +90,9 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="Home" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="Jekyl Serve">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -74,6 +102,14 @@
       <envs />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18034.69" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18034.69" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -128,6 +164,30 @@
       <workItem from="1701036176068" duration="3951000" />
       <workItem from="1701044739634" duration="3725000" />
       <workItem from="1701206141681" duration="652000" />
+      <workItem from="1701230959386" duration="325000" />
+      <workItem from="1701231294462" duration="1016000" />
+      <workItem from="1701237159486" duration="63000" />
+      <workItem from="1701292389004" duration="594000" />
+      <workItem from="1701296134547" duration="1277000" />
+      <workItem from="1701317934645" duration="361000" />
+      <workItem from="1703872521867" duration="1087000" />
+      <workItem from="1703873752397" duration="158000" />
+      <workItem from="1703874003467" duration="414000" />
+      <workItem from="1704323502230" duration="1192000" />
+      <workItem from="1706242292874" duration="699000" />
+      <workItem from="1706242996518" duration="124000" />
+      <workItem from="1706909582639" duration="23000" />
+      <workItem from="1710701454647" duration="95000" />
+      <workItem from="1710701553173" duration="940000" />
+      <workItem from="1710702496770" duration="589000" />
+      <workItem from="1710703089677" duration="142000" />
+      <workItem from="1721851690711" duration="576000" />
+      <workItem from="1721852336635" duration="715000" />
+      <workItem from="1722571076277" duration="398000" />
+      <workItem from="1722574440721" duration="873000" />
+      <workItem from="1722575319101" duration="27000" />
+      <workItem from="1722575348695" duration="26000" />
+      <workItem from="1722575447502" duration="530000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1471793050300</created>
@@ -235,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701061689526</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Fix copyright">
+      <option name="closed" value="true" />
+      <created>1704323933014</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1704323933014</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
