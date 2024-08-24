@@ -30,7 +30,7 @@ google_analytics: UA-21519784-1
 
 # Build settings
 theme: jekyll-theme-tactile
-plugins:
+plugins: []
 #  - jekyll-feed
 
 # Exclude from processing.
