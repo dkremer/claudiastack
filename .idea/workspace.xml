@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7318fabf-0be4-4415-ad7f-1e40584600d6" name="Default" comment="Fix copyright">
+    <list default="true" id="7318fabf-0be4-4415-ad7f-1e40584600d6" name="Default" comment="Update versions">
+      <change afterPath="$PROJECT_DIR$/assets/css/print.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/image-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/image-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +32,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -106,8 +112,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PS-243.23654.168" />
-        <option value="bundled-php-predefined-a98d8de5180a-4c3855d0ab16-com.jetbrains.php.sharedIndexes-PS-243.23654.168" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PS-243.24978.50" />
+        <option value="bundled-php-predefined-a98d8de5180a-fbeb0b58ac0f-com.jetbrains.php.sharedIndexes-PS-243.24978.50" />
       </set>
     </attachedChunks>
   </component>
@@ -173,6 +179,11 @@
       <workItem from="1732562434134" duration="302000" />
       <workItem from="1735185631694" duration="2675000" />
       <workItem from="1738642964769" duration="1041000" />
+      <workItem from="1738644226610" duration="167000" />
+      <workItem from="1739642011355" duration="1968000" />
+      <workItem from="1739643994374" duration="1309000" />
+      <workItem from="1739651056192" duration="523000" />
+      <workItem from="1739651589567" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1471793050300</created>
@@ -288,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738643097950</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fix copyright">
+      <option name="closed" value="true" />
+      <created>1738644244049</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738644244049</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +355,8 @@
     <MESSAGE value="Mark Bandbox Sold" />
     <MESSAGE value="Remove Google Analytics" />
     <MESSAGE value="Fix copyright" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix copyright" />
+    <MESSAGE value="Update versions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update versions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
