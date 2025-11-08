@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7318fabf-0be4-4415-ad7f-1e40584600d6" name="Default" comment="Update versions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/image-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/image-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/print.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/left.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/left.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/right.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/right.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paintings.html" beforeDir="false" afterPath="$PROJECT_DIR$/paintings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purchasing.html" beforeDir="false" afterPath="$PROJECT_DIR$/purchasing.html" afterDir="false" />
-    </list>
+    <list default="true" id="7318fabf-0be4-4415-ad7f-1e40584600d6" name="Default" comment="Some cleanup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,6 +198,7 @@
       <workItem from="1756698955218" duration="923000" />
       <workItem from="1762630008709" duration="1245000" />
       <workItem from="1762631667268" duration="387000" />
+      <workItem from="1762632062639" duration="653000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1471793050300</created>
@@ -331,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738644244049</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Some cleanup">
+      <option name="closed" value="true" />
+      <created>1762632716015</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1762632716015</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +379,8 @@
     <MESSAGE value="Remove Google Analytics" />
     <MESSAGE value="Fix copyright" />
     <MESSAGE value="Update versions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update versions" />
+    <MESSAGE value="Some cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some cleanup" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
