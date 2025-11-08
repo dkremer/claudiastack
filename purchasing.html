@@ -18,7 +18,8 @@ menus:
         {% for page in for-sale-pages %}
             <li>
                 <a href="{{page.url}}">
-                    <img src="{{ page.url | replace: ".html", "_thumbnail.jpg" }}"/ title="{{page.title}} - {{page.price}}"/><br/>
+                    <img src="{{ page.url | replace: '.html', '_thumbnail.jpg' }}" title="{{page.title}} - {{page.price}}"
+                         alt="{{page.title}}" /><br/>
                     {{page.title}} - {{page.price}}
                 </a>
             </li>

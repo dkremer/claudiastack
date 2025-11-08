@@ -4,8 +4,8 @@
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="{{ '../assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" type="text/css" href="{{ '../assets/css/print.css' | relative_url }}" media="print">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
 
 {% seo %}
   </head>
@@ -18,23 +18,26 @@
 
         {% include navigation.html %}
 
+        {% assign single_quote = "'" %}
+
         <section id="main_content">
 
             <div id="title">
                 <h2>{{ page.title }}</h2>
                 <div id="previous-next">
-                    <a href="{{page.previous | replace: "'", "" | replace: "•","" | slugify }}.html">
+                    <a href="{{page.previous | replace: single_quote, '' | replace: '•', '' | slugify }}.html">
                         <img alt="Previous" title="Go to {{page.previous}}" src="{{site.baseurl}}/assets/left.jpg" 
                                 height="20" width="20" />
                     </a>
-                    <a href="{{page.next | replace: "'", "" | replace: "•","" | slugify }}.html">
+                    <a href="{{page.next | replace: single_quote, '' | replace: '•','' | slugify }}.html">
                         <img alt="Next" title="Go to {{page.next}}" src="{{site.baseurl}}/assets/right.jpg" 
                             height="20" width="20" />
                     </a>
                 </div>
             </div>
             
-            <img src="{{page.title | replace: "'", "" | replace: "•","" | slugify}}.jpg"/><br/>
+            <img class="item-image" src="{{page.title | replace: single_quote, '' | replace: '•', '' | slugify}}.jpg"
+                alt="{{page.title}}"/><br/>
             
             {% if page.photographed %}Year Photographed: {{ page.photographed }}<br/>{% endif%}
             {% if page.painted %}Year Painted: {{ page.painted }}<br/>{% endif%}
