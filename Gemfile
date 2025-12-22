@@ -8,8 +8,8 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-#gem "jekyll", "~> 3.9.5"
-gem "github-pages", "~> 232", group: :jekyll_plugins
+gem "jekyll"
+#gem "github-pages", "~> 232", group: :jekyll_plugins
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
@@ -41,3 +41,8 @@ gem "kramdown-parser-gfm"
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
+gem "base64"
+gem "bigdecimal"
+gem "csv"
+gem "logger"
+gem "webrick"
