@@ -1,54 +1,27 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: 'en-US' }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
+---
+layout: page
+---
+{% assign single_quote = "'" %}
 
-{% seo %}
-  </head>
-
-  <body>
-    <div id="container">
-      <div class="inner">
-
-        {% include header.html %}
-
-        {% include navigation.html %}
-
-        {% assign single_quote = "'" %}
-
-        <section id="main_content">
-
-            <div id="title">
-                <h2>{{ page.title }}</h2>
-                <div id="previous-next">
-                    <a href="{{page.previous | replace: single_quote, '' | replace: '•', '' | slugify }}.html">
-                        <img alt="Previous" title="Go to {{page.previous}}" src="{{site.baseurl}}/assets/left.jpg" 
-                                height="20" width="20" />
-                    </a>
-                    <a href="{{page.next | replace: single_quote, '' | replace: '•','' | slugify }}.html">
-                        <img alt="Next" title="Go to {{page.next}}" src="{{site.baseurl}}/assets/right.jpg" 
-                            height="20" width="20" />
-                    </a>
-                </div>
-            </div>
-            
-            <img class="item-image" src="{{page.title | replace: single_quote, '' | replace: '•', '' | slugify}}.jpg"
-                alt="{{page.title}}"/><br/>
-            
-            {% if page.photographed %}Year Photographed: {{ page.photographed }}<br/>{% endif%}
-            {% if page.painted %}Year Painted: {{ page.painted }}<br/>{% endif%}
-            {% if page.location %}Location: {{ page.location }}<br/>{% endif%}
-            {% if page.size %}Size: {{ page.size }}<br/>{% endif%}
-            {% if page.price %}Price: {{ page.price }}<br/>{% endif%}
-        </section>
-
-        {% include footer.html %}
-
-      </div>
+<div id="title">
+    <h2>{{ page.title }}</h2>
+    <div id="previous-next">
+        <a href="{{ page.previous | replace: single_quote, '' | replace: '•', '' | slugify }}.html">
+            <img alt="Previous" title="Go to {{ page.previous }}" src="{{ site.baseurl }}/assets/left.jpg"
+                 height="20" width="20" />
+        </a>
+        <a href="{{ page.next | replace: single_quote, '' | replace: '•', '' | slugify }}.html">
+            <img alt="Next" title="Go to {{ page.next }}" src="{{ site.baseurl }}/assets/right.jpg"
+                 height="20" width="20" />
+        </a>
     </div>
-  </body>
-</html>
+</div>
+
+<img class="item-image" src="{{ page.title | replace: single_quote, '' | replace: '•', '' | slugify }}.jpg"
+     alt="{{ page.title }}" /><br/>
+
+{% if page.photographed %}Year Photographed: {{ page.photographed }}<br/>{% endif %}
+{% if page.painted %}Year Painted: {{ page.painted }}<br/>{% endif %}
+{% if page.location %}Location: {{ page.location }}<br/>{% endif %}
+{% if page.size %}Size: {{ page.size }}<br/>{% endif %}
+{% if page.price %}Price: {{ page.price }}<br/>{% endif %}
